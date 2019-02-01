@@ -3,9 +3,9 @@
 Start your project with a remedy for the technical debt of CSS. Created by Mozilla Developer Outreach. 
 
 
-## Contributing
+## Contribute
 
-We'd love to have you contribute to this project. You can do so by creating or commenting on an issue on Github. 
+We'd love to have you contribute to this project. [Create or comment on an issue](https://github.com/mozdevs/cssremedy/issues).
 
 
 ## What Is This? 
@@ -14,11 +14,11 @@ For years, base or reset stylesheets have helped web developers get started fast
 
 Early resets eliminated all visual styling, putting the burden of defining styles for every element on the webmaster. This made sense when there weren't as many elements or  properties, and when each browser did something very different than the others. By zeroing everything out, you start from a blank page. There were many reset stylesheets that took this approach. Eric Meyer's became the most popular. 
 
-More recently, Normalize and similar projects took a different approach. Rather than removing all styling, they set out to create sensible defaults and eliminate browser bugs. Use one of these and you get a consistent base across all browsers, on which to build your code. You don't have to style everything. In fact, many of the defaults in these stylesheets make their way onto the final websites.
+More recently, Normalize and similar projects took a different approach. Rather than removing all styling, they set out to create sensible defaults and eliminate browser bugs. Use one of these and you get a consistent base across all browsers.
 
-CSS Remedy takes a slightly different approach. There are far fewer bugs than there used to be. Browsers are increasingly consistent in how they render CSS. But there are limitations on how far browser makers can improve their User Agent Stylesheet. The defaults for the  web have to be consistent with the past. Many desirable changes would break millions of existing websites. 
+CSS Remedy takes a slightly different approach. These days, browsers are far more consistent in how they render CSS. But there are limitations on how far browsers can improve their User Agent Stylesheet. The defaults for the web have to be consistent with the past. Many desirable changes would break millions of existing websites. 
 
-You however, don't have to stay in the past. You can override the UA styles with more modern ideas of how CSS should work be default. But to do so, you have to include those overrides in your project. Rather than doing that yourself, though, let us write the code. 
+You however, don't have to stay in the past. You can override the UA styles with more modern ideas of how CSS should work by default. Introducing CSS Remedy. 
 
 
 ## Guiding Ideas
