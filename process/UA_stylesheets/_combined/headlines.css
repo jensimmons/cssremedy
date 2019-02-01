@@ -1,0 +1,99 @@
+
+/* If you combine the three UA stylesheet styling for headlines, this is what you get */
+
+h1 {
+	display: block;
+	font-size: 2em;
+	font-weight: bold;
+	-webkit-margin-before: 0.67__qem;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin-block-start: .67em;
+	margin-block-end: .67em;
+}
+h2 {
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	-webkit-margin-before: 0.83__qem;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;  margin-block-start: .83em;
+	margin-block-end: .83em;
+}
+
+h3 {
+  display: block;
+	font-size: 1.17em;
+	font-weight: bold;
+	-webkit-margin-before: 1__qem;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+h4 {
+	display: block;
+	font-size: 1.00em;
+	font-weight: bold;
+	-webkit-margin-before: 1.33__qem;
+	-webkit-margin-after: 1.33em;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin-block-start: 1.33em;
+	margin-block-end: 1.33em;
+}
+
+h5 {
+	display: block;
+	font-size: 0.83em;
+	font-weight: bold;
+	-webkit-margin-before: 1.67__qem;
+	-webkit-margin-after: 1.67em;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin-block-start: 1.67em;
+	margin-block-end: 1.67em;
+}
+
+h6 {
+	display: block;
+	font-size: 0.67em;
+	font-weight: bold;
+	-webkit-margin-before: 2.33__qem;
+	-webkit-margin-after: 2.33em;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;  margin-block-start: 2.33em;
+	margin-block-end: 2.33em;
+}
+
+
+/* In addition, all three engines are mapping the formatting of an H1 to smaller headlines (h2, h3, h4, h5, h6) according to how many levels deep it is inside a sectioning element. Therefore, an h1 that's nested inside three levels of any sectioning element will be formatted like an h3. 
+
+
+Normalize squashes this with the following code: */
+
+
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+/* Many resets remove bolding from headlines. Or margins / top margin. Or style them in some way. I think it makes more sense for us to do none of those things. We want to keep to emptiness as much as possible, not provide a base theme. */
+
+
+
+
+
