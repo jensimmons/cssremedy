@@ -22,53 +22,53 @@ You however, don't have to stay in the past. You can override the UA styles with
 
 CSS Remedy...
 * Sets CSS properties or values to what they would be if the CSSWG were creating the CSS today, from scratch, and didn't have to worry about backwards compatibility.
-* Applies basic styling to form elements and controls, getting you started with custom styling. We want to find the balance between providing a base for implementing a custom design, and allowing OS-level control over how form inputs work (like how a numberpad works on iOS). 
-* 
+* Applies basic styling to form elements and controls, getting you started with custom styling. We want to find the balance between providing a base for implementing a custom design, and allowing OS-level control over how form inputs work (like how a number pad works on iOS). 
+* Provides a very lightweight starter file, with generic visual styling that you will want to replace. This isn't as robust or opinionated as a starter-theme or framework. We've leaned toward specifying less, so you have less to override. (We haven't defined any font families, for example.)
 
 
 
 ## Inspiration and History
 
-### Incomplete List of Mistakes in the Design of CSS
+Incomplete List of Mistakes in the Design of CSS
 https://wiki.csswg.org/ideas/mistakes
 
-### Tantek’s CSS Reset: UndoHTML, 2004
+Tantek’s CSS Reset: UndoHTML, 2004
 http://tantek.com/log/2004/undohtml.css
 
-### CSS Reset, created by Eric Meyer, 2007-2011
+CSS Reset, created by Eric Meyer, 2007-2011
 https://meyerweb.com/eric/tools/css/reset
 
-### HTML5 Reset Stylesheet, by Richard Clark, 2010
+HTML5 Reset Stylesheet, by Richard Clark, 2010
 http://html5doctor.com/html-5-reset-stylesheet/
 
-### Normalize, created by Nicolas Gallagher and Jonathan Neal, 2011-2019
+Normalize, created by Nicolas Gallagher and Jonathan Neal, 2011-2019
 http://necolas.github.io/normalize.css
 
-### Formalize, created by Nathan Smith
+Formalize, created by Nathan Smith
 https://formalize.me
 
-### Sanitize, created by Jonathan Neal
+Sanitize, created by Jonathan Neal
 https://csstools.github.io/sanitize.css/ 
 
-### Reboot, created by the Bootstrap team, 2017
+Reboot, created by the Bootstrap team, 2017
 https://getbootstrap.com/docs/4.0/content/reboot/
 
-### Web Typography, a book by Richard Rutter, 2017
+Web Typography, a book by Richard Rutter, 2017
 http://book.webtypography.net
 
-### A look at CSS Resets in 2018, article by Ire Aderinokun
+A look at CSS Resets in 2018, article by Ire Aderinokun
 https://bitsofco.de/a-look-at-css-resets-in-2018/
 
-### A Roundup of CSS Resets, from before 2007 (there were many)
+A Roundup of CSS Resets, from before 2007 (there were many)
 https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/
 
-### Requests on Twitter
+Requests on Twitter
 https://twitter.com/jensimmons/status/1082396940237750272
 
 
 
 ## Browser support
-
+(TBD)
 * Chrome
 * Edge
 * Firefox ESR+
