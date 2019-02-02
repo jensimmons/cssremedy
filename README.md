@@ -33,18 +33,19 @@ CSS Remedy...
 
 ## Inspiration and History
 
+* [How browsers are supposed to render things](https://html.spec.whatwg.org/multipage/rendering.html)}
+* [Requests on Twitter](https://twitter.com/jensimmons/status/1082396940237750272)
 * [Incomplete List of Mistakes in the Design of CSS](https://wiki.csswg.org/ideas/mistakes)
-* [Tantek’s CSS Reset: UndoHTML, 2004](http://tantek.com/log/2004/undohtml.css)
-* [CSS Reset, created by Eric Meyer, 2007-2011](https://meyerweb.com/eric/tools/css/reset)
-* [HTML5 Reset Stylesheet, by Richard Clark, 2010](http://html5doctor.com/html-5-reset-stylesheet)
-* [Normalize, created by Nicolas Gallagher and Jonathan Neal, 2011-2019](http://necolas.github.io/normalize.css)
-* [Formalize, created by Nathan Smith](https://formalize.me)
-* [Sanitize, created by Jonathan Neal](https://csstools.github.io/sanitize.css)
 * [Reboot, created by the Bootstrap team, 2017](https://getbootstrap.com/docs/4.0/content/reboot)
 * [Web Typography, a book by Richard Rutter, 2017](http://book.webtypography.net)
+* [Sanitize, created by Jonathan Neal](https://csstools.github.io/sanitize.css)
+* [Formalize, created by Nathan Smith](https://formalize.me)
+* [Normalize, created by Nicolas Gallagher and Jonathan Neal, 2011-2019](http://necolas.github.io/normalize.css)
+* [HTML5 Reset Stylesheet, by Richard Clark, 2010](http://html5doctor.com/html-5-reset-stylesheet)
+* [CSS Reset, created by Eric Meyer, 2007-2011](https://meyerweb.com/eric/tools/css/reset)
+* [Tantek’s CSS Reset: UndoHTML, 2004](http://tantek.com/log/2004/undohtml.css)
 * [A look at CSS Resets in 2018, article by Ire Aderinokun](https://bitsofco.de/a-look-at-css-resets-in-2018)
 * [A Roundup of CSS Resets, from before 2007 (there were many)](https://perishablepress.com/a-killer-collection-of-global-css-reset-styles)
-* [Requests on Twitter](https://twitter.com/jensimmons/status/1082396940237750272)
 
 
 ## Browser support
