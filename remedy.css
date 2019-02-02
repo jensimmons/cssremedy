@@ -1,11 +1,12 @@
 
-/* Switching to border-box for box-sizing. */
+
 html {
-	box-sizing: border-box;
-	font-size: 100%;
+	box-sizing: border-box; /* Switching to border-box for box-sizing. */
+	font-size: 100%; /* Is this needed? Define the best way to define font size. */
+
 }
 *, *:before, *:after {
-	box-sizing: inherit;
+	box-sizing: inherit; /* Switching to border-box for box-sizing. */
 }
 
 /* Stop any animation if the user has set their device to "prefers reduced motion". */
