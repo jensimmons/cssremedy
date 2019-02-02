@@ -33,7 +33,7 @@ CSS Remedy...
 
 ## Inspiration and History
 
-* [How browsers are supposed to render things](https://html.spec.whatwg.org/multipage/rendering.html)}
+* [How browsers are supposed to render things](https://html.spec.whatwg.org/multipage/rendering.html)
 * [Requests on Twitter](https://twitter.com/jensimmons/status/1082396940237750272)
 * [Incomplete List of Mistakes in the Design of CSS](https://wiki.csswg.org/ideas/mistakes)
 * [Reboot, created by the Bootstrap team, 2017](https://getbootstrap.com/docs/4.0/content/reboot)
