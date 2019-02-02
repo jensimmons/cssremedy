@@ -18,7 +18,7 @@ More recently, Normalize and similar projects took a different approach. Rather 
 
 CSS Remedy takes a slightly different approach. These days, browsers are far more consistent in how they render CSS. But there are limitations on how far browsers can improve their User Agent Stylesheet. The defaults for the web have to be consistent with the past. Many desirable changes would break millions of existing websites. 
 
-You however, don't have to stay in the past. You can override the UA styles with more modern ideas of how CSS should work by default. Introducing CSS Remedy. 
+You, however, don't have to stay in the past. You can override the UA styles with more modern ideas of how CSS should work by default. Introducing CSS Remedy. 
 
 
 ## Guiding Ideas
