@@ -1,12 +1,12 @@
 
 
 html {
-	box-sizing: border-box; /* Switching to border-box for box-sizing. */
-	font-size: 100%; /* Is this needed? Define the best way to define font size. */
+  box-sizing: border-box; /* Switching to border-box for box-sizing. */
+  font-size: 100%; /* Is this needed? Define the best way to define font size. */
 
 }
 *, *:before, *:after {
-	box-sizing: inherit; /* Switching to border-box for box-sizing. */
+  box-sizing: inherit; /* Switching to border-box for box-sizing. */
 }
 
 /* Stop any animation if the user has set their device to "prefers reduced motion". */
@@ -20,58 +20,58 @@ html {
 }
 
 body {
-	margin: 0; /* Remove the tiny space around the edge of the page */
-	text-size-adjust: 100%;	 /* Fix for iOS Safari */
+  margin: 0; /* Remove the tiny space around the edge of the page */
+  text-size-adjust: 100%;  /* Fix for iOS Safari */
 }
 
 
 /* Switch to using rem units for typography. Fix line-height on headlines. */
 h1 {
-	font-size: 2rem; /* Makes all H1 large, removing nested-shrinking sizes. */
+  font-size: 2rem; /* Makes all H1 large, removing nested-shrinking sizes. */
   margin: 0.67em 0;
 }
 h2 {
-	font-size: 1.5rem;
-	line-height: 1;
+  font-size: 1.5rem;
+  line-height: 1;
 }
 h3 {
-	font-size: 1.17rem;
-	line-height: 1;
+  font-size: 1.17rem;
+  line-height: 1;
 }
 h4 {
-	font-size: 1.00rem;
-	line-height: 1;
+  font-size: 1.00rem;
+  line-height: 1;
 }
 h5 {
-	font-size: 0.83rem;
-	line-height: 1;
+  font-size: 0.83rem;
+  line-height: 1;
 }
 h6 {
-	font-size: 0.67rem;
-	line-height: 1;
+  font-size: 0.67rem;
+  line-height: 1;
 }
 
 /* Improve readibility */
 p {
-	line-height: 1.5; 
+  line-height: 1.5; 
 }
 
 
 pre { 
-	white-space:pre-wrap; /* Overflow by default is bad. */
+  white-space:pre-wrap; /* Overflow by default is bad. */
 }
 
 
 /* are browsers now consistent with margin & padding on lists?
-	See: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Consistent_list_indentation  */
+  See: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Consistent_list_indentation  */
 nav ul {
- list-style:none;
+  list-style:none;
 }
 
 
 img {
- 	max-width: 100%; /* Make images are flexible by default.*/
- 	height: auto;
+  max-width: 100%; /* Make images are flexible by default.*/
+  height: auto;
 }
 
 
@@ -79,12 +79,4 @@ img {
 /* In English, when styling the <q> element, use curly quotes instead of straight quotes. */
 
 :lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
-
-
-
-
-
-
-
-
 
