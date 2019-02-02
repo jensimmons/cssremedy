@@ -11,7 +11,7 @@ I believe
 
 can be replaced by
 
-:root:lang(af, ak, asa), [lang]:not(:lang(af, ak, asa)) 			{ quotes: '\201c' '\201d' '\2018' '\2019' }
+:root:lang(af, ak, asa), [lang]:lang(af, ak, asa)       			{ quotes: '\201c' '\201d' '\2018' '\2019' }
 
 */
 
