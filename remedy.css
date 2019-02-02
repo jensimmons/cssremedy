@@ -18,12 +18,6 @@ html {
   }
 }
 
-
-/* Is this needed? Define the best way to define font size. */
-html {
-	font-size: 100%;
-}
-
 body {
 	margin: 0; /* Remove the tiny space around the edge of the page */
 	text-size-adjust: 100%;	 /* Fix for iOS Safari */
