@@ -78,5 +78,6 @@ img {
 
 /* In English, when styling the <q> element, use curly quotes instead of straight quotes. */
 
-:lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+/* Code for this is now in the quotes.css file */ 
+
 
