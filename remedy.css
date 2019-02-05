@@ -81,3 +81,16 @@ img {
 /* Code for this is now in the quotes.css file */ 
 
 
+/* Upcoming properties that haven't been broadly implemented yet,
+   but for which the initial value and legacy behavior is not be the best behavior.
+*/
+
+/* Consistent line spacing, which does not unecessarily grow to accomodate things that would fit anyway */
+:root {
+  line-sizing: normal;
+}
+
+/* Improve spacing of punctuation marks and at script changes in CJK languages */
+:root {
+  text-spacing: trim-start allow-end trim-adjacent ideograph-alpha ideograph-numeric;
+}
