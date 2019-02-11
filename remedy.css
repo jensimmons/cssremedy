@@ -13,13 +13,12 @@ html {
   box-sizing: inherit; /* Switching to border-box for box-sizing. */
 }
 
-/* Stop any animation if the user has set their device to "prefers reduced motion". */
+/* Immediately jump any animation to the end point if the user has set their device to "prefers reduced motion". */
+/* This could create bad unintended consequences. Remove as needed, and write your own appropriate code for prefers-reduced-motion. */
 @​media (prefers-reduced-motion: reduce) {
   * {
-    animation: none !important;
-    transition: none !important;
-    animation-duration: 0.1s !important;
-    transition-duration: 0.1s !important;
+	animation-duration: 0.001s !important;
+	transition-duration: 0.001s !important;
   }
 }
 
