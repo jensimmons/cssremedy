@@ -67,12 +67,13 @@ nav ul {
   list-style: none;
 }
 
-
+ 
 img {
+  border-style: none; /* Remove the border on images inside links in IE 10 and earlier. */
+  vertical-align: bottom;  /* Fix problem with images having a tiny gap for a decender under them. */
+  display: block; /* Switch display mode to block, since that's what we usually want for images. */
   max-width: 100%; /* Make images flexible by default. */
-  height: auto;
 }
-
 
 
 /* In English, when styling the <q> element, use curly quotes instead of straight quotes. */
