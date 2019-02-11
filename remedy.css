@@ -5,12 +5,12 @@
 
 
 html {
-  box-sizing: border-box; /* Switching to border-box for box-sizing. */
+  box-sizing: border-box; /* Switch to border-box for box-sizing. */
   font-size: 100%; /* Is this needed? Define the best way to define font size. */
 
 }
 *, *:before, *:after {
-  box-sizing: inherit; /* Switching to border-box for box-sizing. */
+  box-sizing: inherit; /* Switch to border-box for box-sizing. */
 }
 
 /* Immediately jump any animation to the end point if the user has set their device to "prefers reduced motion". */
@@ -30,7 +30,7 @@ body {
 
 /* Switch to using rem units for typography. Fix line-height on headlines. */
 h1 {
-  font-size: 2rem; /* Makes all H1 large, removing nested-shrinking sizes. */
+  font-size: 2rem; /* Make all H1 large, remove nested-shrinking sizes. */
   margin: 0.67em 0;
 }
 h2 {
@@ -84,7 +84,7 @@ img {
 /* Code for this is now in the quotes.css file */ 
 
 
-/* Upcoming properties that haven't been broadly implemented yet,
+/* Support upcoming properties that haven't been broadly implemented yet,
    but for which the initial value and legacy behavior is not be the best behavior.
 */
 
