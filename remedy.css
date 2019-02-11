@@ -22,9 +22,7 @@ html {
 
 body {
   margin: 0; /* Remove the tiny space around the edge of the page */
-  text-size-adjust: 100%;  /* Fix for iOS Safari */
 }
-
 
 /* Switch to using rem units for typography. Fix line-height on headlines. */
 h1 {
