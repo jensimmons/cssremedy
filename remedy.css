@@ -6,8 +6,6 @@
 
 html {
   box-sizing: border-box; /* Switch to border-box for box-sizing. */
-  font-size: 100%; /* Is this needed? Define the best way to define font size. */
-
 }
 *, *:before, *:after {
   box-sizing: inherit; /* Switch to border-box for box-sizing. */
