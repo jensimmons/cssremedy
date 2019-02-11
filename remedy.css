@@ -57,19 +57,19 @@ p {
 
 
 pre { 
-  white-space:pre-wrap; /* Overflow by default is bad. */
+  white-space: pre-wrap; /* Overflow by default is bad. */
 }
 
 
 /* are browsers now consistent with margin & padding on lists?
   See: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Consistent_list_indentation  */
 nav ul {
-  list-style:none;
+  list-style: none;
 }
 
 
 img {
-  max-width: 100%; /* Make images are flexible by default.*/
+  max-width: 100%; /* Make images flexible by default. */
   height: auto;
 }
 
