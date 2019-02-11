@@ -3,6 +3,8 @@
 Start your project with a remedy for the technical debt of CSS. 
 A gift to you from Mozilla Developer Outreach. 
 
+_This project is just getting started. It's too early to distribute it as part of other frameworks! Feel free to read the files and take inspiration, but do know we have a ways to go before it's really "ready to use"._
+
 
 ## Contribute
 
@@ -46,13 +48,3 @@ CSS Remedy...
 * [Tantek’s CSS Reset: UndoHTML, 2004](http://tantek.com/log/2004/undohtml.css)
 * [A look at CSS Resets in 2018, article by Ire Aderinokun](https://bitsofco.de/a-look-at-css-resets-in-2018)
 * [A Roundup of CSS Resets, from before 2007 (there were many)](https://perishablepress.com/a-killer-collection-of-global-css-reset-styles)
-
-
-## Browser support
-(TBD)
-* Chrome
-* Edge
-* Firefox ESR+
-* Internet Explorer 10+
-* Safari 8+
-* Opera
