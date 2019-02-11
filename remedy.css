@@ -76,6 +76,7 @@ img {
   vertical-align: bottom;  /* Fix problem with images having a tiny gap for a decender under them. */
   display: block; /* Switch display mode to block, since that's what we usually want for images. */
   max-width: 100%; /* Make images flexible by default. */
+  height: auto; /* ensure images maintain their aspect ratio when max-width comes into play. */
 }
 
 
