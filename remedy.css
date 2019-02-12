@@ -7,7 +7,7 @@
 * { box-sizing: border-box; } /* Switch to border-box for box-sizing. */
 
 /* Immediately jump any animation to the end point if the user has set their device to "prefers reduced motion". */
-/* This could create bad unintended consequences. Remove as needed, and write your own appropriate code for prefers-reduced-motion. */
+/* This could create bad, unintended consequences. Remove as needed, and write your own appropriate code for prefers-reduced-motion. */
 @​media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.001s !important;
@@ -44,43 +44,43 @@ h2, h3, h4, h5, h6{
   line-height: 1;
 }
 
-/* Improve readibility */
+/* Improve readability */
 p {
-  line-height: 1.5; 
+  line-height: 1.5;
 }
 
 
-pre { 
+pre {
   white-space: pre-wrap; /* Overflow by default is bad. */
 }
 
 
-/* are browsers now consistent with margin & padding on lists?
+/* Are browsers now consistent with margin & padding on lists?
   See: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Consistent_list_indentation  */
 nav ul {
   list-style: none;
 }
 
- 
+
 img {
   border-style: none; /* Remove the border on images inside links in IE 10 and earlier. */
-  vertical-align: bottom;  /* Fix problem with images having a tiny gap for a decender under them. */
+  vertical-align: bottom;  /* Fix problem with images having a tiny gap for a descender under them. */
   display: block; /* Switch display mode to block, since that's what we usually want for images. */
   max-width: 100%; /* Make images flexible by default. */
-  height: auto; /* ensure images maintain their aspect ratio when max-width comes into play. */
+  height: auto; /* Ensure images maintain their aspect ratio when max-width comes into play. */
 }
 
 
 /* In English, when styling the <q> element, use curly quotes instead of straight quotes. */
 
-/* Code for this is now in the quotes.css file */ 
+/* Code for this is now in the quotes.css file */
 
 
 /* Support upcoming properties that haven't been broadly implemented yet,
    but for which the initial value and legacy behavior is not be the best behavior.
 */
 
-/* Consistent line spacing, which does not unecessarily grow to accomodate things that would fit anyway */
+/* Consistent line spacing, which does not unnecessarily grow to accommodate things that would fit anyway */
 :root {
   line-sizing: normal;
 }
