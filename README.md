@@ -26,6 +26,8 @@ You, however, don't have to stay in the past. You can override the UA styles wit
 
 ## Guiding Ideas
 
+#### “Because that’s what Mosaic did” is exactly the kind of reasoning CSS Remedy is trying to leave behind. — Eric Meyer
+
 CSS Remedy...
 * Sets CSS properties or values to what they would be if the CSSWG were creating the CSS today, from scratch, and didn't have to worry about backwards compatibility.
 * Applies basic styling to form elements and controls, getting you started with custom styling. We want to find the balance between providing a base for implementing a custom design, and allowing OS-level control over how form inputs work (like how a number pad works on iOS). 
