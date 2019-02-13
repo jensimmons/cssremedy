@@ -24,9 +24,9 @@ CSS Remedy takes a slightly different approach. These days, browsers are far mor
 You, however, don't have to stay in the past. You can override the UA styles with more modern ideas of how CSS should work by default. Introducing CSS Remedy. 
 
 
-## Guiding Ideas
+### “‘Because that’s what Mosaic did’ is exactly the kind of reasoning CSS Remedy is trying to leave behind.” — Eric Meyer
 
-#### “Because that’s what Mosaic did” is exactly the kind of reasoning CSS Remedy is trying to leave behind. — Eric Meyer
+## Guiding Ideas
 
 CSS Remedy...
 * Sets CSS properties or values to what they would be if the CSSWG were creating the CSS today, from scratch, and didn't have to worry about backwards compatibility.
