@@ -61,10 +61,6 @@ nav ul {
   list-style: none;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> af4f645a773fa73c271599ab95b5573a5d4ec7d5
 img, video, canvas, audio, iframe, embed, object  { 
   display: block; /* Switch display mode to block, since that's what we usually want for images. */
   vertical-align: middle;  /* If you override, and make an image inline, it's likely you'll want middle vertical alignment. */
