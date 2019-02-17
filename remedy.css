@@ -54,6 +54,10 @@ pre {
   white-space: pre-wrap; /* Overflow by default is bad. */
 }
 
+hr {
+  border: .5px solid;
+}
+
 
 /* Are browsers now consistent with margin & padding on lists?
   See: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Consistent_list_indentation  */
