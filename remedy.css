@@ -4,7 +4,7 @@
 
 
 
-* { box-sizing: border-box; } /* Switch to border-box for box-sizing. */
+*, ::before, ::after { box-sizing: border-box; } /* Switch to border-box for box-sizing. */
 
 /* Immediately jump any animation to the end point if the user has set their device to "prefers reduced motion". */
 /* This could create bad, unintended consequences. Remove as needed, and write your own appropriate code for prefers-reduced-motion. */
