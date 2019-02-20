@@ -45,7 +45,7 @@ h2, h3, h4, h5, h6{
 }
 
 /* Improve readability */
-p {
+p, ul, ol, dl, address {
   line-height: 1.5;
 }
 
