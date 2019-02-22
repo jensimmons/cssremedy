@@ -17,7 +17,7 @@ For years, base or reset stylesheets have helped web developers get started fast
 
 Early resets eliminated all visual styling, putting the burden of defining styles for every element on the webmaster. This made sense when there weren't as many elements or  properties, and when each browser did something very different than the others. By zeroing everything out, you start from a blank page. There were many reset stylesheets that took this approach. Eric Meyer's became the most popular. 
 
-More recently, Normalize and similar projects took a different approach. Rather than removing all styling, they set out to create sensible defaults and eliminate browser bugs. Use one of these and you get a consistent base across all browsers.
+More recently, Normalize and [similar projects](https://github.com/troxler/awesome-css-frameworks#base--reset--normalize) took a different approach. Rather than removing all styling, they set out to create sensible defaults and eliminate browser bugs. Use one of these and you get a consistent base across all browsers.
 
 CSS Remedy takes a slightly different approach. These days, browsers are far more consistent in how they render CSS. But there are limitations on how far browsers can improve their User Agent Stylesheet. The defaults for the web have to be consistent with the past. Many desirable changes would break millions of existing websites. 
 
