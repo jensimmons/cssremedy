@@ -8,7 +8,7 @@
 
 /* Immediately jump any animation to the end point if the user has set their device to "prefers reduced motion". */
 /* This could create bad, unintended consequences. Remove as needed, and write your own appropriate code for prefers-reduced-motion. */
-@​media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.001s !important;
     transition-duration: 0.001s !important;
