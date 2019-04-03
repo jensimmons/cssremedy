@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>HTML5 Test Page</title>
+  </head>
+  <body>
+  
+  <main>
+	  <header><h1>Form elements</h1></header>
+      <form>
+      
+      
+        <fieldset id="forms__input">
+          <legend>Input fields</legend>
+          <p>
+            <label for="input__text">Text Input</label>
+            <input id="input__text" type="text" placeholder="Text Input">
+          </p>
+          <p>
+            <label for="input__password">Password</label>
+            <input id="input__password" type="password" placeholder="Type your Password">
+          </p>
+          <p>
+            <label for="input__webaddress">Web Address</label>
+            <input id="input__webaddress" type="url" placeholder="http://yoursite.com">
+          </p>
+          <p>
+            <label for="input__emailaddress">Email Address</label>
+            <input id="input__emailaddress" type="email" placeholder="name@email.com">
+          </p>
+          <p>
+            <label for="input__phone">Phone Number</label>
+            <input id="input__phone" type="tel" placeholder="(999) 999-9999">
+          </p>
+          <p>
+            <label for="input__search">Search</label>
+            <input id="input__search" type="search" placeholder="Enter Search Term">
+          </p>
+          <p>
+            <label for="input__text2">Number Input</label>
+            <input id="input__text2" type="number" placeholder="Enter a Number">
+          </p>
+          <p>
+            <label for="input__text3" class="error">Error</label>
+            <input id="input__text3" class="is-error" type="text" placeholder="Text Input">
+          </p>
+          <p>
+            <label for="input__text4" class="valid">Valid</label>
+            <input id="input__text4" class="is-valid" type="text" placeholder="Text Input">
+          </p>
+        </fieldset>
+
+
+
+        <fieldset id="forms__select">
+          <legend>Select menus</legend>
+          <p>
+            <label for="select">Select</label>
+            <select id="select">
+              <optgroup label="Option Group">
+                <option>Option One</option>
+                <option>Option Two</option>
+                <option>Option Three</option>
+              </optgroup>
+            </select>
+          </p>
+        </fieldset>
+
+
+
+        <fieldset id="forms__checkbox">
+          <legend>Checkboxes</legend>
+          <ul class="list list--bare">
+            <li><label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label></li>
+            <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label></li>
+            <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label></li>
+          </ul>
+        </fieldset>
+
+
+
+        <fieldset id="forms__radio">
+          <legend>Radio buttons</legend>
+          <ul class="list list--bare">
+            <li><label for="radio1"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"> Option 1</label></li>
+            <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio"> Option 2</label></li>
+            <li><label for="radio3"><input id="radio3" name="radio" type="radio" class="radio"> Option 3</label></li>
+          </ul>
+        </fieldset>
+
+
+
+        <fieldset id="forms__textareas">
+          <legend>Textareas</legend>
+          <p>
+            <label for="textarea">Textarea</label>
+            <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
+          </p>
+        </fieldset>
+
+
+
+        <fieldset id="forms__html5">
+          <legend>HTML5 inputs</legend>
+          <p>
+            <label for="ic">Color input</label>
+            <input type="color" id="ic" value="#000000">
+          </p>
+          <p>
+            <label for="in">Number input</label>
+            <input type="number" id="in" min="0" max="10" value="5">
+          </p>
+          <p>
+            <label for="ir">Range input</label>
+            <input type="range" id="ir" value="10">
+          </p>
+          <p>
+            <label for="idd">Date input</label>
+            <input type="date" id="idd" value="1970-01-01">
+          </p>
+          <p>
+            <label for="idm">Month input</label>
+            <input type="month" id="idm" value="1970-01">
+          </p>
+          <p>
+            <label for="idw">Week input</label>
+            <input type="week" id="idw" value="1970-W01">
+          </p>
+          <p>
+            <label for="idt">Datetime input</label>
+            <input type="datetime" id="idt" value="1970-01-01T00:00:00Z">
+          </p>
+          <p>
+            <label for="idtl">Datetime-local input</label>
+            <input type="datetime-local" id="idtl" value="1970-01-01T00:00">
+          </p>
+        </fieldset>
+      </form>
+
+	  
+	  <form>
+        <fieldset id="forms__action">
+          <legend>Action buttons</legend>
+          <p>
+            <input type="submit" value="<input type=submit>">
+            <input type="button" value="<input type=button>">
+            <input type="reset" value="<input type=reset>">
+            <input type="submit" value="<input disabled>" disabled>
+          </p>
+          <p>
+            <button type="submit">&lt;button type=submit&gt;</button>
+            <button type="button">&lt;button type=button&gt;</button>
+            <button type="reset">&lt;button type=reset&gt;</button>
+            <button type="button" disabled>&lt;button disabled&gt;</button>
+          </p>
+        </fieldset>
+      </form>
+        
+  </main>
+  </body>
+</html>
