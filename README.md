@@ -3,7 +3,7 @@
 Start your project with a remedy for the technical debt of CSS. 
 A gift to you from Mozilla Developer Outreach. 
 
-_This project is just getting started. It's too early to distribute it as part of other frameworks! Feel free to read the files and take inspiration, but do know we have a ways to go before it's really "ready to use"._
+_This project is just getting started. It's too early to distribute it as part of other frameworks. Feel free to read the files and take inspiration, but do know we have a ways to go before it's really "ready to use"._
 
 
 ## Contribute
@@ -24,7 +24,7 @@ CSS Remedy takes a slightly different approach. These days, browsers are far mor
 You, however, don't have to stay in the past. You can override the UA styles with more modern ideas of how CSS should work by default. Introducing CSS Remedy. 
 
 
-### “‘Because that’s what Mosaic did’ is exactly the kind of reasoning CSS Remedy is trying to leave behind.” — Eric Meyer
+> ### “‘Because that’s what Mosaic did’ is exactly the kind of reasoning CSS Remedy is trying to leave behind.” — Eric Meyer
 
 ## Guiding Ideas
 
