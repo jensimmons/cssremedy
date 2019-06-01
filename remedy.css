@@ -21,7 +21,7 @@ body {
 
 /* Switch to using rem units for typography. Fix line-height on headlines. */
 h1 {
-  font-size: 2rem; /* Make all H1 large, remove nested-shrinking sizes. */
+  font-size: 2rem; /* Make all of the H1 tags large, remove nested-shrinking sizes. */
   margin: 0.67em 0;
 }
 h2 {
