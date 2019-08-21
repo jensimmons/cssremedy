@@ -1,0 +1,25 @@
+/* These are not universally recommended remedies,
+   but they are good to consider,
+   and they might work for you… */
+
+/* Immediately jump any animation to the end point if the user has set their device to "prefers reduced motion". */
+/* This could create bad, unintended consequences. Remove as needed, and write your own appropriate code for prefers-reduced-motion. */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001s !important;
+    transition-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/* In many cases, list sttyling is not desired in navigation */
+/* But this often removes list-semantics for screen-readers as well */
+nav ul {
+  list-style: none;
+}
+
+/* The default `normal` line-height is tightly spaced, but takes font-metrics into account */
+/* Loser spacing may improve readability, but may not make sense as a universal override */
+html { line-height: 1.5; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.25; }
+caption, figcaption, label, legend { line-height: 1.375; }
