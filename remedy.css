@@ -65,6 +65,11 @@ hr {
 nav ul {
   list-style: none;
 }
+/* Add zero-width-space to prevent VoiceOver disable
+  See: https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/ */
+nav li:before {
+  content: "\200B";
+}
 
 img, video, canvas, audio, iframe, embed, object  { 
   display: block; /* Switch display mode to block, since that's what we usually want for images. */
