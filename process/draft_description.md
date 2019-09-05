@@ -1,4 +1,4 @@
-##What does it do?
+## What does it do?
 
 * Preserves useful defaults, unlike many CSS resets.
 * Normalizes styles for a wide range of elements.
@@ -9,20 +9,20 @@
 ## Context 
 
 For years, people have started their custom CSS by building on top of a starter file. Eric Meyer's CSS Reset 
-[bit of history] / Normalize....
+bit of history / Normalize....
 
 CSS FOOBAR is not attempting to reset all styling to zero. And it's not specifically about making all browser behave the same. The purpose of FOOBAR is simple — to pay off as much technical debt of the evoluation of CSS as possible. 
 
-The first CSS specification was [(https://en.wikipedia.org/wiki/Cascading_Style_Sheets#History)published in 1996]. 
+The first CSS specification was [published in 1996](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#History). 
 our ideas of how to write good specs has changed
 we've learned a lot, and have gotten much better at it
-there are a lot of things we might do differently now, if we'd known back then what we know now. In fact, the CSS Working Group keeps [(https://wiki.csswg.org/ideas/mistakes)a running list] of things to change, in case anyone invents a time machine.
+there are a lot of things we might do differently now, if we'd known back then what we know now. In fact, the CSS Working Group keeps [a running list](https://wiki.csswg.org/ideas/mistakes) of things to change, in case anyone invents a time machine.
 
 Why don't browser makers just make these changes? Well, it would break the web. 
 
 For example, it's clear now that `box-sizing` should default to `border-box`. But if the browsers suddenly started applying `box-sizing: border-box;` to websites, millions of websites would have browkn layouts overnight. We can't make such changes. But you don't have to live in the past. You can apply many of the more modern ideas to your website, through the use of this starter file. 
 
-Changes to the design of CSS itself are limited by the requirement that all new CSS standards [(https://www.w3.org/People/Bos/DesignGuide/compatibility.html)maintain backwards compatibility]. 
+Changes to the design of CSS itself are limited by the requirement that all new CSS standards [maintain backwards compatibility](https://www.w3.org/People/Bos/DesignGuide/compatibility.html). 
 
 ## Design Principles
 
@@ -53,7 +53,3 @@ We are taking the same approach as Normalize. We'll apply a consistent style to 
 5. Allow websites to not look the same in every browser.
 
 Websites don't have to look the same in every browser. In fact, no matter what they do, they never will. The intention of this project is not to iron out every difference. We are letting many of those differences stay. 
-
-
-
-
