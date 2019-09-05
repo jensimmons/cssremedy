@@ -1,7 +1,7 @@
 # CSS Remedy
 
-Start your project with a remedy for the technical debt of CSS. 
-A gift to you from Mozilla Developer Outreach. 
+Start your project with a remedy for the technical debt of CSS.
+A gift to you from Mozilla Developer Outreach.
 
 _This project is just getting started. It's too early to distribute it as part of other frameworks. Feel free to read the files and take inspiration, but do know we have a ways to go before it's really "ready to use"._
 
@@ -11,29 +11,39 @@ _This project is just getting started. It's too early to distribute it as part o
 We'd love to have you contribute to this project. [Create or comment on an issue](https://github.com/mozdevs/cssremedy/issues).
 
 
-## What Is This? 
+## What Is This?
 
-For years, base or reset stylesheets have helped web developers get started faster. 
+For years, base or reset stylesheets have helped web developers get started faster.
 
-Early resets eliminated all visual styling, putting the burden of defining styles for every element on the webmaster. This made sense when there weren't as many elements or  properties, and when each browser did something very different than the others. By zeroing everything out, you start from a blank page. There were many reset stylesheets that took this approach. Eric Meyer's became the most popular. 
+Early resets eliminated all visual styling, putting the burden of defining styles for every element on the webmaster. This made sense when there weren't as many elements or  properties, and when each browser did something very different than the others. By zeroing everything out, you start from a blank page. There were many reset stylesheets that took this approach. Eric Meyer's became the most popular.
 
 More recently, Normalize and similar projects took a different approach. Rather than removing all styling, they set out to create sensible defaults and eliminate browser bugs. Use one of these and you get a consistent base across all browsers.
 
-CSS Remedy takes a slightly different approach. These days, browsers are far more consistent in how they render CSS. But there are limitations on how far browsers can improve their User Agent Stylesheet. The defaults for the web have to be consistent with the past. Many desirable changes would break millions of existing websites. 
+CSS Remedy takes a slightly different approach. These days, browsers are far more consistent in how they render CSS. But there are limitations on how far browsers can improve their User Agent Stylesheet. The defaults for the web have to be consistent with the past. Many desirable changes would break millions of existing websites.
 
-You, however, don't have to stay in the past. You can override the UA styles with more modern ideas of how CSS should work by default. Introducing CSS Remedy. 
+You, however, don't have to stay in the past. You can override the UA styles with more modern ideas of how CSS should work by default. Introducing CSS Remedy.
 
 
 > ### “‘Because that’s what Mosaic did’ is exactly the kind of reasoning CSS Remedy is trying to leave behind.” — Eric Meyer
 
 ## Guiding Ideas
 
-CSS Remedy...
-* Sets CSS properties or values to what they would be if the CSSWG were creating the CSS today, from scratch, and didn't have to worry about backwards compatibility.
-* Applies basic styling to form elements and controls, getting you started with custom styling. We want to find the balance between providing a base for implementing a custom design, and allowing OS-level control over how form inputs work (like how a number pad works on iOS). 
-* Provides a very lightweight starter file, with generic visual styling that you will want to replace. This isn't as robust or opinionated as a starter-theme or framework. We've leaned toward specifying less, so you have less to override. (We haven't defined any font families, for example.)
+CSS Remedy sets CSS properties or values to what they would be if the CSSWG were creating the CSS today, from scratch, and didn't have to worry about backwards compatibility.
 
+We provide:
+- A core `remedy.css` that we recommend using broadly across most projects.
+- A secondary `reminders.css` with more opinionated or situational remedies that should be reviewed and considered on a case-by-case basis.
+- Additional specialized remedy files (such as `quotes.css`) that can be used as-needed, but may not be required generally.
 
+The current set of features can be extended along those lines, with opportunities for light-weight form-styling and other useful defaults. This is a living project, and we're excited to see where it goes!
+
+## Browser Support
+
+We will actively support modern browers, IE 11 and up. For older browsers:
+
+- We will add proven fixes when they are light-weight and non-invasive. We're not trying to ensure full interoperability, but we do want to help encourage reasonable fallbacks.
+- We won't "support" older browsers with any sense of urgency, priority, or completeness.
+- We're not trying to polyfill new CSS features like grid, or recreate the full html5 "shiv"
 
 ## Inspiration and History
 
