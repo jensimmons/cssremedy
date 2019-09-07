@@ -5,6 +5,29 @@
 */
 
 
+/* Nav Lists
+************/
+
+/*
+* List styling is not usually desired in navigation,
+* but this also removes list-semantics for screen-readers
+* See: https://github.com/mozdevs/cssremedy/issues/15
+*/
+nav ul {
+  list-style: none;
+}
+
+/*
+* 1. Add zero-width-space to prevent VoiceOver disable
+* 2. Absolute position ensures no extra space
+* See: https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
+*/
+nav li:before {
+  content: "\200B";
+  position: absolute;
+}
+
+
 /* Reduced Motion
 *****************/
 

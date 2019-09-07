@@ -8,7 +8,8 @@ _This project is just getting started. It's too early to distribute it as part o
 
 ## Contribute
 
-We'd love to have you contribute to this project. [Create or comment on an issue](https://github.com/mozdevs/cssremedy/issues).
+We'd love to have you contribute to this project.
+See the [contributing guidelines](CONTRIBUTING.md) for more detail.
 
 
 ## What Is This?
