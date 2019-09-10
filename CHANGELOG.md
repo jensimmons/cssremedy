@@ -1,6 +1,6 @@
 # Changelog & Release Notes
 
-## v1.0.0 - unreleased
+## v0.1.0 - unreleased
 
 - Organize the existing proposed & discussed remedies into three categories:
   - Universally recommended remedies in `remedy.css`
