@@ -1,0 +1,8 @@
+{
+  "source": ["css"],
+  "destination": "docs/",
+  "homepage": "../README.md",
+  "title": "CSS Remedy",
+  "css": [],
+  "js": []
+}

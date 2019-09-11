@@ -1,0 +1,147 @@
+/* Global Remedies
+******************/
+
+/*
+Border-Box Sizing
+
+Use border-box by default, globally.
+
+Styleguide Remedy.box-sizing
+*/
+*, ::before, ::after { box-sizing: border-box; }
+
+/*
+Line Spacing
+
+1. Consistent line spacing...
+   CSS Inline Layout Module Level 3: https://drafts.csswg.org/css-inline-3/#line-sizing-property
+2. Improve spacing of punctuation marks and script changes in CJK languages
+   CSS Text Module Level 4: https://drafts.csswg.org/css-text-4/#text-spacing-property
+
+Styleguide Remedy.line-spacing
+*/
+html {
+  line-sizing: normal;
+  text-spacing: trim-start allow-end trim-adjacent ideograph-alpha ideograph-numeric;
+}
+
+/*
+Body
+
+Remove the tiny space around the edge of the page
+
+Styleguide Remedy.body
+*/
+body { margin: 0; }
+
+
+/* Headings
+***********/
+
+/*
+Heading Sizes
+
+Switch to rem units for headings.
+@@@ Initial values are based on existing browser defaults.
+
+Styleguide Remedy.headings
+*/
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.17rem; }
+h4 { font-size: 1.00rem; }
+h5 { font-size: 0.83rem; }
+h6 { font-size: 0.67rem; }
+
+/*
+H1 Margins
+
+Keep h1 margins consistent, even when nested
+
+Styleguide Remedy.headings.h1
+*/
+h1 { margin: 0.67em 0; }
+
+
+/* Typography
+*************/
+
+/*
+Pre-Wrap
+
+Overflow by default is bad
+
+Styleguide Remedy.pre-wrap
+*/
+pre { white-space: pre-wrap; }
+
+/*
+Horizontal Rules
+
+Solid, thin horizonatal rules
+
+Styleguide Remedy.hr
+*/
+hr { border: 0.5px solid; }
+
+
+/* Embedded Elements
+********************/
+
+/*
+Embeded Elements
+
+1. Block display is usually what we want
+2. Remove strange space-below when inline
+3. Responsive by default
+
+Styleguide Remedy.embeded
+*/
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+/*
+Aspect Ratios
+
+Maintain intrinsic aspect ratios when `max-width` is applied
+(iframe, embed, and object have no intrinsic ratio, set height explicitly)
+
+Styleguide Remedy.embeded.aspects
+*/
+img, svg, video, canvas {
+  height: auto;
+}
+
+/*
+There is no good reason elements default to 300px,
+and audio files are unlikely to come with a width attribute
+*/
+audio { width: 100%; }
+
+
+/* Old Browsers
+***************/
+
+/* Remove the border on images inside links in IE 10 and earlier */
+img { border-style: none; }
+
+/* Hide the overflow in IE 10 and earlier */
+svg { overflow: hidden; }
+
+/* Default block display on HTML5 elements */
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+/*
+1. Add the correct box sizing in IE 10
+2. Remove the padding in IE 10
+*/
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "cssremedy",
+  "version": "0.1.0",
+  "description": "Start your project with a remedy for the technical debt of CSS",
+  "main": "remedy.css",
+  "repository": "git@github.com:mozdevs/cssremedy.git",
+  "author": "Mozilla Developer Relations",
+  "license": "MPL-2.0",
+  "scripts": {
+    "docs": "kss --config ./kss.json"
+  },
+  "devDependencies": {
+    "kss": "^3.0.0-beta.25"
+  }
+}
