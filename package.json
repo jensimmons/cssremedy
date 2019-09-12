@@ -1,0 +1,17 @@
+{
+  "name": "cssremedy",
+  "version": "0.1.0-beta.1",
+  "description": "Start your project with a remedy for the technical debt of CSS",
+  "repository": "git@github.com:mozdevs/cssremedy.git",
+  "author": "Mozilla Developer Relations",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url" : "https://github.com/owner/project/issues",
+    "email" : "project@hostname.com"
+  },
+  "keywords": [
+    "css",
+    "reset",
+    "default"
+  ]
+}
