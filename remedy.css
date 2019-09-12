@@ -5,15 +5,10 @@
 *, ::before, ::after { box-sizing: border-box; }
 
 /*
-* 1. Consistent line spacing...
-*    CSS Inline Layout Module Level 3: https://drafts.csswg.org/css-inline-3/#line-sizing-property
-* 2. Improve spacing of punctuation marks and script changes in CJK languages
-*    CSS Text Module Level 4: https://drafts.csswg.org/css-text-4/#text-spacing-property
+* Consistent line spacing...
+* CSS Inline Layout Module Level 3: https://drafts.csswg.org/css-inline-3/#line-sizing-property
 */
-html {
-  line-sizing: normal;
-  text-spacing: trim-start allow-end trim-adjacent ideograph-alpha ideograph-numeric;
-}
+html { line-sizing: normal; }
 
 /* Remove the tiny space around the edge of the page */
 body { margin: 0; }
