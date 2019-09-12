@@ -41,8 +41,18 @@ h1 { margin: 0.67em 0; }
 /* Overflow by default is bad */
 pre { white-space: pre-wrap; }
 
-/* Solid, thin horizonatal rules */
-hr { border: 0.5px solid; }
+/*
+* 1. Solid, thin horizonatal rules
+* 2. Remove Firefox `color: gray`
+* 3. Remove default `1px` height, and common `overflow: hidden`
+*/
+hr {
+  border-style: solid;
+  border-width: 1px 0 0;
+  color: inherit;
+  height: 0;
+  overflow: visible;
+}
 
 
 /* Embedded Elements
