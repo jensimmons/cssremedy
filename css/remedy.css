@@ -37,7 +37,7 @@ h1 { margin: 0.67em 0; }
 pre { white-space: pre-wrap; }
 
 /*
-* 1. Solid, thin horizonatal rules
+* 1. Solid, thin horizontal rules
 * 2. Remove Firefox `color: gray`
 * 3. Remove default `1px` height, and common `overflow: hidden`
 */
