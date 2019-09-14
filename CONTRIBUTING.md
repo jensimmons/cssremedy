@@ -9,7 +9,7 @@ code of conduct and etiquette guidelines.
 For more details, please read the
 [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/).
 
-## Pull Reguests
+## Pull Requests
 
 We're also happy to take pull requests,
 both for fixing bugs/typos
@@ -48,7 +48,7 @@ and [Markdown](https://commonmark.org/help/)
 for notes.
 It looks like this:
 
-```
+```css
 /* doxray
 label: Name The Remedy (required)
 
@@ -62,12 +62,49 @@ note: |
 
 links:
   - https://example.com/any-relevant-links-including-github-discussion/
+  - https://example.com/links-are-recommended
+
+todo: |
+  Add a `markdown` block
+  with todo items releated to this remedy.
+
+  - You can add lists in the markdown,
+    but this is not the same as the `links` YAML list...
   - (optional)
 
-category: name groups of remedies (required)
+category: create groups (required)
 */
 ```
 
 Every file should start with a file-level
-comment that describes the contents of that file,
-using `category: file`.
+comment that describes the purpose
+and contents of that file:
+
+```css
+/* doxray
+label: Name The File (required)
+version: 0.1.0-beta.1 (required)
+
+note: |
+  Describe the purpose & contents of the file (recommended).
+
+category: file (!important)
+```
+
+Adding `category: file` marks it as a file-level comment.
+We also include a `version` number on every file,
+since CSS documents are likely to be coppied and pasted
+out-of-context.
+
+## Release Checklist
+
+- [ ] Update inline documentation comments as needed
+- [ ] Update `CHANGELOG.md` with bugfixes, new remedies, and breaking changes
+- [ ] Update version using [SemVer](https://semver.org/), and record in:
+  - [ ] `package.json`
+  - [ ] `CHANGELOG.md`
+  - [ ] CSS file-level comments
+- [ ] If possible, run RemeDocs locally to test documentation build
+- [ ] Merge changes into the `master` branch
+- [ ] Create a release on GitHub
+- [ ] Publish release on NPM

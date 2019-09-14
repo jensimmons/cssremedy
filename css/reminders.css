@@ -1,5 +1,6 @@
 /* doxray
 label: Reminders
+version: 0.1.0-beta.1
 
 note: |
   All the remedies in this file are commented out by default,
@@ -91,7 +92,7 @@ links:
   - https://jsbin.com/bezasax/1/edit?html,css,output
   - https://jsbin.com/qurecom/edit?html,css,output
 
-todo:
+todo: |
   - Use `:lang(language-code)` selectors?
   - Add typography remedies for other scripts & languages...
 
