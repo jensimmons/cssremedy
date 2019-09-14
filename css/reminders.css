@@ -1,42 +1,66 @@
-/*
-* These are not universally recommended remedies,
-* but they are good to consider,
-* and they might work for you.
+/* doxray
+label: Reminders
+
+note: |
+  All the remedies in this file are commented out by default,
+  because they could cause harm as general defaults.
+  These should be used as reminders
+  to handle common styling issues
+  in a way that will work for your project and users.
+  Read, explore, uncomment, and edit as needed.
+
+category: file
 */
 
 
-/* Nav Lists
-************/
+/* doxray
+label: List Style
 
-/*
-* List styling is not usually desired in navigation,
-* but this also removes list-semantics for screen-readers
-* See: https://github.com/mozdevs/cssremedy/issues/15
+note: |
+  List styling is not usually desired in navigation,
+  but this also removes list-semantics for screen-readers
+
+links:
+  - https://github.com/mozdevs/cssremedy/issues/15
+
+category: navigation
 */
-nav ul {
+/* nav ul {
   list-style: none;
-}
+} */
 
-/*
-* 1. Add zero-width-space to prevent VoiceOver disable
-* 2. Absolute position ensures no extra space
-* See: https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
+
+/* doxray
+label: List Voiceover
+
+note: |
+  1. Add zero-width-space to prevent VoiceOver disable
+  2. Absolute position ensures no extra space
+
+links:
+  - https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
+
+category: navigation
 */
-nav li:before {
+/* nav li:before {
   content: "\200B";
   position: absolute;
-}
+} */
 
 
-/* Reduced Motion
-*****************/
+/* doxray
+label: Reduced Motion
 
-/*
-* 1. Immediately jump any animation to the end point
-* 2. Remove transitions & fixed background attachment
-* See: https://github.com/mozdevs/cssremedy/issues/11
+note: |
+  1. Immediately jump any animation to the end point
+  2. Remove transitions & fixed background attachment
+
+links:
+  - https://github.com/mozdevs/cssremedy/issues/11
+
+category: accessibility
 */
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {
     animation-delay: -1s !important;
     animation-duration: 1s !important;
@@ -45,17 +69,24 @@ nav li:before {
     scroll-behavior: auto !important;
     transition-duration: 0s !important;
   }
-}
+} */
 
 
-/* Line Heights
-***************/
+/* doxray
+label: Line Heights
 
-/*
-* The default `normal` line-height is tightly spaced, but takes font-metrics into account.
-* Looser spacing may improve readability, but may cause problems in some scripts.
-* See: https://github.com/mozdevs/cssremedy/issues/7
+note: |
+  The default `normal` line-height is tightly spaced,
+  but takes font-metrics into account --
+  which is important for many fonts.
+  Looser spacing may improve readability,
+  but may also cause problems in some scripts.
+
+links:
+  - https://github.com/mozdevs/cssremedy/issues/7
+
+category: typography
 */
-html { line-height: 1.5; }
+/* html { line-height: 1.5; }
 h1, h2, h3, h4, h5, h6 { line-height: 1.25; }
-caption, figcaption, label, legend { line-height: 1.375; }
+caption, figcaption, label, legend { line-height: 1.375; } */
