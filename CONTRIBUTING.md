@@ -6,7 +6,7 @@ You can get involved by
 
 This repository is governed by Mozilla's code of conduct and etiquette guidelines. For more details, please read the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/).
 
-## Pull Reguests
+## Pull Requests
 
 We're also happy to take pull requests,
 both for fixing bugs/typos
