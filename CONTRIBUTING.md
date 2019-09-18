@@ -83,7 +83,7 @@ and contents of that file:
 ```css
 /* @docs
 label: Name The File (required)
-version: 0.1.0-beta.1 (required)
+version: 3.0.1-beta.1 (required)
 
 note: |
   Describe the purpose & contents of the file (recommended).
