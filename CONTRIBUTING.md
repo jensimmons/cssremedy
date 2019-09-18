@@ -42,14 +42,14 @@ The `process` folder contains related materials:
 We're using code comments with
 [Doxray](https://github.com/himedlooff/doxray)
 to automatically generate our online documentation.
-Comments start with `/* doxray`,
+Comments start with `/* @docs`,
 and use [YAML](https://learnxinyminutes.com/docs/yaml/) structure,
 and [Markdown](https://commonmark.org/help/)
 for notes.
 It looks like this:
 
 ```css
-/* doxray
+/* @docs
 label: Name The Remedy (required)
 
 note: |
@@ -81,7 +81,7 @@ comment that describes the purpose
 and contents of that file:
 
 ```css
-/* doxray
+/* @docs
 label: Name The File (required)
 version: 0.1.0-beta.1 (required)
 
@@ -98,13 +98,13 @@ out-of-context.
 
 ## Release Checklist
 
-- [ ] Update inline documentation comments as needed
-- [ ] Update `CHANGELOG.md` with bugfixes, new remedies, and breaking changes
-- [ ] Update version using [SemVer](https://semver.org/), and record in:
-  - [ ] `package.json`
-  - [ ] `CHANGELOG.md`
-  - [ ] CSS file-level comments
-- [ ] If possible, run RemeDocs locally to test documentation build
-- [ ] Merge changes into the `master` branch
-- [ ] Create a release on GitHub
-- [ ] Publish release on NPM
+- Update inline documentation comments as needed
+- Update `CHANGELOG.md` with bugfixes, new remedies, and breaking changes
+- Update version using [SemVer](https://semver.org/), and record in:
+  - `package.json`
+  - `CHANGELOG.md`
+  - CSS file-level comments
+- If possible, run RemeDocs locally to test documentation build
+- Merge changes into the `master` branch
+- Create a release on GitHub
+- Publish release on NPM

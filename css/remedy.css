@@ -1,4 +1,4 @@
-/* doxray
+/* @docs
 label: Core Remedies
 version: 0.1.0-beta.1
 
@@ -10,7 +10,7 @@ category: file
 */
 
 
-/* doxray
+/* @docs
 label: Box Sizing
 
 note: |
@@ -21,7 +21,7 @@ category: global
 *, ::before, ::after { box-sizing: border-box; }
 
 
-/* doxray
+/* @docs
 label: Line Sizing
 
 note: |
@@ -36,7 +36,7 @@ category: global
 html { line-sizing: normal; }
 
 
-/* doxray
+/* @docs
 label: Body Margins
 
 note: |
@@ -47,7 +47,7 @@ category: global
 body { margin: 0; }
 
 
-/* doxray
+/* @docs
 label: Heading Sizes
 
 note: |
@@ -63,7 +63,7 @@ h5 { font-size: 0.83rem; }
 h6 { font-size: 0.67rem; }
 
 
-/* doxray
+/* @docs
 label: H1 Margins
 
 note: |
@@ -74,7 +74,7 @@ category: typography
 h1 { margin: 0.67em 0; }
 
 
-/* doxray
+/* @docs
 label: Pre Wrapping
 
 note: |
@@ -85,7 +85,7 @@ category: typography
 pre { white-space: pre-wrap; }
 
 
-/* doxray
+/* @docs
 label: Horizontal Rule
 
 note: |
@@ -93,7 +93,7 @@ note: |
   2. Remove Firefox `color: gray`
   3. Remove default `1px` height, and common `overflow: hidden`
 
-  category: typography
+category: typography
 */
 hr {
   border-style: solid;
@@ -104,7 +104,7 @@ hr {
 }
 
 
-/* doxray
+/* @docs
 label: Responsive Embeds
 
 note: |
@@ -121,7 +121,7 @@ img, svg, video, canvas, audio, iframe, embed, object {
 }
 
 
-/* doxray
+/* @docs
 label: Aspect Ratios
 
 note: |
@@ -137,7 +137,7 @@ img, svg, video, canvas {
 }
 
 
-/* doxray
+/* @docs
 label: Audio Width
 
 note: |
@@ -149,7 +149,7 @@ category: embedded elements
 audio { width: 100%; }
 
 
-/* doxray
+/* @docs
 label: Image Borders
 
 note: |
@@ -160,7 +160,7 @@ category: legacy browsers
 img { border-style: none; }
 
 
-/* doxray
+/* @docs
 label: SVG Overflow
 
 note: |
@@ -171,7 +171,7 @@ category: legacy browsers
 svg { overflow: hidden; }
 
 
-/* doxray
+/* @docs
 label: HTML5 Elements
 
 note: |
@@ -184,7 +184,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 
-/* doxray
+/* @docs
 label: Checkbox & Radio Inputs
 
 note: |
