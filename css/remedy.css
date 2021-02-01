@@ -135,6 +135,23 @@ audio:not([controls]) { display:none; }
 
 
 /* @docs
+label: Responsive Images
+
+note: |
+  These new elements display inline by default,
+  but that's not the expected behavior for either one.
+  This can interfere with proper layout and aspect-ratio handling.
+
+  1. Remove the unnecessary wrapping `picture`, while maintaining contents
+  2. Source elements have nothing to display, so we hide them entirely
+
+category: embedded elements
+*/
+picture { display: contents; }
+source { display: none; }
+
+
+/* @docs
 label: Aspect Ratios
 
 note: |

@@ -2,6 +2,7 @@
 
 ## UNRELEASED
 
+- [Remedy] New: Proper display handling for `picture` and `source` elements
 - [Remedy] New: Add basic `[hidden]` remedy
   to fix unintentional `display` overrides
 - [Remedy] Fix: Audio without `[controls]` remains hidden by default
