@@ -1,17 +1,21 @@
 # Changelog & Release Notes
 
+## UNRELEASED
+
+- Remedies: Add basic `[hidden]` remedy
+  to fix unintentional `display` overrides
+
 ## v0.1.0-beta.2 - 9/18/2019
 
-- Comment out reminders,
+- Reminders: Comment out reminders,
   so that authors have to explicitly opt-in
   case-by-case.
-- Add inline documentation comments
+- Docs: Add inline documentation comments
   (marked with `@docs`)
   using [Doxray](https://github.com/himedlooff/doxray)
   and YAML format.
-- Exclude irrelevant files from npm releases
-- Typo fixes
-
+- Docs: Typo fixes
+- NPM: Exclude irrelevant files from npm releases
 
 ## v0.1.0-beta.1 - 9/12/2019
 

@@ -48,6 +48,18 @@ body { margin: 0; }
 
 
 /* @docs
+label: Hidden
+
+note: |
+  Maintain `hidden` behaviour
+  when overriding `display` defaults.
+
+  category: global
+*/
+[hidden] { display: none; }
+
+
+/* @docs
 label: Heading Sizes
 
 note: |
@@ -147,9 +159,6 @@ note: |
 category: embedded elements
 */
 audio { width: 100%; }
-
-/** Maintain `hidden` behaviour on our display styles. */
-[hidden] { display: none; }
 
 /* @docs
 label: Image Borders
