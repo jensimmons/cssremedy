@@ -1,18 +1,30 @@
-/* This is what user agents are supposed to be doing for quotes, 
-according to https://html.spec.whatwg.org/multipage/rendering.html#quotes */
+/* @docs
+label: Quotes
+version: 0.1.0-beta.2
 
-/*
+note: |
+  This is what user agents are supposed to be doing for quotes,
+  according to https://html.spec.whatwg.org/multipage/rendering.html#quotes
 
-I believe
+links:
+  - https://html.spec.whatwg.org/multipage/rendering.html#quotes
 
-:root:lang(af),       :not(:lang(af)) > :lang(af)             { quotes: '\201c' '\201d' '\2018' '\2019' }
-:root:lang(ak),       :not(:lang(ak)) > :lang(ak)             { quotes: '\201c' '\201d' '\2018' '\2019' }
-:root:lang(asa),      :not(:lang(asa)) > :lang(asa)           { quotes: '\201c' '\201d' '\2018' '\2019' }
+todo: |
+  I believe
 
-can be replaced by
+  ```css
+  :root:lang(af),       :not(:lang(af)) > :lang(af)             { quotes: '\201c' '\201d' '\2018' '\2019' }
+  :root:lang(ak),       :not(:lang(ak)) > :lang(ak)             { quotes: '\201c' '\201d' '\2018' '\2019' }
+  :root:lang(asa),      :not(:lang(asa)) > :lang(asa)           { quotes: '\201c' '\201d' '\2018' '\2019' }
+  ```
 
-:root:lang(af, ak, asa), [lang]:lang(af, ak, asa)       			{ quotes: '\201c' '\201d' '\2018' '\2019' }
+  can be replaced by
 
+  ```css
+  :root:lang(af, ak, asa), [lang]:lang(af, ak, asa)       			{ quotes: '\201c' '\201d' '\2018' '\2019' }
+  ```
+
+category: file
 */
 
 :root                                                         { quotes: '\201c' '\201d' '\2018' '\2019' } /* “ ” ‘ ’ */

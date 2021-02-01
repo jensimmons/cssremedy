@@ -1,24 +1,60 @@
-/* Global Remedies
-******************/
+/* @docs
+label: Core Remedies
+version: 0.1.0-beta.2
 
-/* Use border-box by default, globally */
+note: |
+  These remedies are recommended
+  as a starter for any project.
+
+category: file
+*/
+
+
+/* @docs
+label: Box Sizing
+
+note: |
+  Use border-box by default, globally.
+
+category: global
+*/
 *, ::before, ::after { box-sizing: border-box; }
 
-/*
-* Consistent line spacing...
-* CSS Inline Layout Module Level 3: https://drafts.csswg.org/css-inline-3/#line-sizing-property
+
+/* @docs
+label: Line Sizing
+
+note: |
+  Consistent line-spacing,
+  even when inline elements have different line-heights.
+
+links:
+  - https://drafts.csswg.org/css-inline-3/#line-sizing-property
+
+category: global
 */
 html { line-sizing: normal; }
 
-/* Remove the tiny space around the edge of the page */
+
+/* @docs
+label: Body Margins
+
+note: |
+  Remove the tiny space around the edge of the page.
+
+category: global
+*/
 body { margin: 0; }
 
 
-/* Headings
-***********/
+/* @docs
+label: Heading Sizes
 
-/* Switch to rem units for headings */
-/* @@@ Initial values are based on existing browser defaults */
+note: |
+  Switch to rem units for headings
+
+category: typography
+*/
 h1 { font-size: 2rem; }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.17rem; }
@@ -26,20 +62,38 @@ h4 { font-size: 1.00rem; }
 h5 { font-size: 0.83rem; }
 h6 { font-size: 0.67rem; }
 
-/* Keep h1 margins consistent, even when nested */
+
+/* @docs
+label: H1 Margins
+
+note: |
+  Keep h1 margins consistent, even when nested.
+
+category: typography
+*/
 h1 { margin: 0.67em 0; }
 
 
-/* Typography
-*************/
+/* @docs
+label: Pre Wrapping
 
-/* Overflow by default is bad */
+note: |
+  Overflow by default is bad...
+
+category: typography
+*/
 pre { white-space: pre-wrap; }
 
-/*
-* 1. Solid, thin horizontal rules
-* 2. Remove Firefox `color: gray`
-* 3. Remove default `1px` height, and common `overflow: hidden`
+
+/* @docs
+label: Horizontal Rule
+
+note: |
+  1. Solid, thin horizontal rules
+  2. Remove Firefox `color: gray`
+  3. Remove default `1px` height, and common `overflow: hidden`
+
+category: typography
 */
 hr {
   border-style: solid;
@@ -50,13 +104,15 @@ hr {
 }
 
 
-/* Embedded Elements
-********************/
+/* @docs
+label: Responsive Embeds
 
-/*
-* 1. Block display is usually what we want
-* 2. Remove strange space-below in case authors overwrite the display value
-* 3. Responsive by default
+note: |
+  1. Block display is usually what we want
+  2. Remove strange space-below in case authors overwrite the display value
+  3. Responsive by default
+
+category: embedded elements
 */
 img, svg, video, canvas, audio, iframe, embed, object {
   display: block;
@@ -64,38 +120,78 @@ img, svg, video, canvas, audio, iframe, embed, object {
   max-width: 100%;
 }
 
-/*
-* Maintain intrinsic aspect ratios when `max-width` is applied
-* (iframe, embed, and object have no intrinsic ratio, set height explicitly)
+
+/* @docs
+label: Aspect Ratios
+
+note: |
+  Maintain intrinsic aspect ratios when `max-width` is applied.
+  `iframe`, `embed`, and `object` are also embedded,
+  but have no intrinsic ratio,
+  so their `height` needs to be set explicitly.
+
+category: embedded elements
 */
 img, svg, video, canvas {
   height: auto;
 }
 
-/*
-* There is no good reason elements default to 300px,
-* and audio files are unlikely to come with a width attribute
+
+/* @docs
+label: Audio Width
+
+note: |
+  There is no good reason elements default to 300px,
+  and audio files are unlikely to come with a width attribute.
+
+category: embedded elements
 */
 audio { width: 100%; }
 
 
-/* Old Browsers
-***************/
+/* @docs
+label: Image Borders
 
-/* Remove the border on images inside links in IE 10 and earlier */
+note: |
+  Remove the border on images inside links in IE 10 and earlier.
+
+category: legacy browsers
+*/
 img { border-style: none; }
 
-/* Hide the overflow in IE 10 and earlier */
+
+/* @docs
+label: SVG Overflow
+
+note: |
+  Hide the overflow in IE 10 and earlier.
+
+category: legacy browsers
+*/
 svg { overflow: hidden; }
 
-/* Default block display on HTML5 elements */
+
+/* @docs
+label: HTML5 Elements
+
+note: |
+  Default block display on HTML5 elements
+
+category: legacy browsers
+*/
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
-/*
-* 1. Add the correct box sizing in IE 10
-* 2. Remove the padding in IE 10
+
+/* @docs
+label: Checkbox & Radio Inputs
+
+note: |
+  1. Add the correct box sizing in IE 10
+  2. Remove the padding in IE 10
+
+category: legacy browsers
 */
 [type='checkbox'],
 [type='radio'] {
