@@ -148,6 +148,8 @@ category: embedded elements
 */
 audio { width: 100%; }
 
+/** Maintain `hidden` behaviour on our display styles. */
+[hidden] { display: none; }
 
 /* @docs
 label: Image Borders
