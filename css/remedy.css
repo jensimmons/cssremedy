@@ -109,7 +109,7 @@ label: Responsive Embeds
 
 note: |
   1. Block display is usually what we want
-  2. Remove strange space-below when inline
+  2. Remove strange space-below in case authors overwrite the display value
   3. Responsive by default
 
 category: embedded elements

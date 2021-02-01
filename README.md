@@ -41,7 +41,7 @@ The current set of features can be extended along those lines, with opportunitie
 
 ## Browser Support
 
-We will actively support modern browers, IE 11 and up. For older browsers:
+We will actively support modern browsers, IE 11 and up. For older browsers:
 
 - We will add proven fixes when they are light-weight and non-invasive. We're not trying to ensure full interoperability, but we do want to help encourage reasonable fallbacks.
 - We won't "support" older browsers with any sense of urgency, priority, or completeness.
