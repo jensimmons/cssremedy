@@ -48,11 +48,10 @@ body { margin: 0; }
 
 
 /* @docs
-label: Hidden
+label: Hidden Attribute
 
 note: |
-  Maintain `hidden` behaviour
-  when overriding `display` defaults.
+  Maintain `hidden` behaviour when overriding `display` values.
 
   category: global
 */
@@ -123,6 +122,7 @@ note: |
   1. Block display is usually what we want
   2. Remove strange space-below in case authors overwrite the display value
   3. Responsive by default
+  4. Audio without `[controls]` remains hidden by default
 
 category: embedded elements
 */
@@ -131,6 +131,7 @@ img, svg, video, canvas, audio, iframe, embed, object {
   vertical-align: middle;
   max-width: 100%;
 }
+audio:not([controls]) { display:none; }
 
 
 /* @docs
