@@ -86,6 +86,25 @@ h1 { margin: 0.67em 0; }
 
 
 /* @docs
+label: Indented Elements
+
+note: |
+
+category: typography
+*/
+blockquote, figure {
+  margin-inline-start: 2.5em;
+  margin-inline-end: 2.5em;
+}
+ul, ol, menu, dir {
+  padding-inline-start: 2.5em;
+}
+dd {
+  margin-inline-start: 2.5em;
+}
+
+
+/* @docs
 label: Pre Wrapping
 
 note: |
