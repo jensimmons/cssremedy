@@ -2,6 +2,7 @@
 
 ## UNRELEASED
 
+- [Remedy] New: Replace `40px` indents with `2.5em` indents
 - [Remedy] New: Proper display handling for `picture` and `source` elements
 - [Remedy] New: Add basic `[hidden]` remedy
   to fix unintentional `display` overrides
