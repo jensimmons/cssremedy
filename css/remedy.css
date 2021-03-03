@@ -204,11 +204,15 @@ svg { overflow: hidden; }
 label: HTML5 Elements
 
 note: |
-  Default block display on HTML5 elements
+  Default block display on HTML5 elements.
+  For oldIE to apply this styling one needs to add some JS as well (i.e. `document.createElement("main")`)
+
+links:
+  - https://www.sitepoint.com/html5-older-browsers-and-the-shiv/
 
 category: legacy browsers
 */
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
