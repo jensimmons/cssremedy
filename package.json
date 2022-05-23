@@ -1,16 +1,17 @@
 {
-  "name": "cssremedy",
-  "version": "0.1.0-beta.2",
-  "description": "Start your project with a remedy for the technical debt of CSS",
-  "repository": "mozdevs/cssremedy",
+  "name": "cssremedy-mod",
+  "version": "0.2.0-beta.2",
+  "description": "Start your project with a remedy for the technical debt of CSS. A fork of Jen Simmons' CSS Remedy with 0 specificity.",
+  "repository": "Th3S4mur41/cssremedy",
   "author": "Mozilla Developer Relations",
   "license": "MPL-2.0",
-  "homepage": "https://github.com/mozdevs/cssremedy/",
-  "bugs": "https://github.com/mozdevs/cssremedy/issues",
+  "homepage": "https://github.com/Th3S4mur41/cssremedy/",
+  "bugs": "https://github.com/Th3S4mur41/cssremedy/issues",
   "keywords": [
     "css",
     "reset",
-    "default"
+    "default",
+    "remedy"
   ],
   "files": [
       "css/*.css"

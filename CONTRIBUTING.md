@@ -2,7 +2,7 @@
 
 We'd love to have you contribute to this project.
 You can get involved by
-[creating or commenting on an issue](https://github.com/mozdevs/cssremedy/issues).
+[creating or commenting on an issue](https://github.com/Th3S4mur41/cssremedy/issues).
 
 This repository is governed by Mozilla's
 code of conduct and etiquette guidelines.

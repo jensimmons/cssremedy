@@ -7,6 +7,10 @@
   to fix unintentional `display` overrides
 - [Remedy] Fix: Audio without `[controls]` remains hidden by default
 
+## v0.2.0-beta.2 - 5/23/2022
+
+- [Remedy] Feature: Update styles to 0 specificity
+
 ## v0.1.0-beta.2 - 9/18/2019
 
 - [Reminder] Fix: Comment out reminders,

@@ -18,7 +18,7 @@ note: |
 
 category: global
 */
-*, ::before, ::after { box-sizing: border-box; }
+:where(*, ::before, ::after) { box-sizing: border-box; }
 
 
 /* @docs
@@ -33,7 +33,7 @@ links:
 
 category: global
 */
-html { line-sizing: normal; }
+:where(html) { line-sizing: normal; }
 
 
 /* @docs
@@ -44,7 +44,7 @@ note: |
 
 category: global
 */
-body { margin: 0; }
+:where(body) { margin: 0; }
 
 
 /* @docs
@@ -55,7 +55,7 @@ note: |
 
   category: global
 */
-[hidden] { display: none; }
+:where([hidden]) { display: none; }
 
 
 /* @docs
@@ -66,12 +66,12 @@ note: |
 
 category: typography
 */
-h1 { font-size: 2rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.17rem; }
-h4 { font-size: 1.00rem; }
-h5 { font-size: 0.83rem; }
-h6 { font-size: 0.67rem; }
+:where(h1) { font-size: 2rem; }
+:where(h2) { font-size: 1.5rem; }
+:where(h3) { font-size: 1.17rem; }
+:where(h4) { font-size: 1.00rem; }
+:where(h5) { font-size: 0.83rem; }
+:where(h6) { font-size: 0.67rem; }
 
 
 /* @docs
@@ -82,7 +82,7 @@ note: |
 
 category: typography
 */
-h1 { margin: 0.67em 0; }
+:where(h1) { margin: 0.67em 0; }
 
 
 /* @docs
@@ -93,7 +93,7 @@ note: |
 
 category: typography
 */
-pre { white-space: pre-wrap; }
+:where(pre) { white-space: pre-wrap; }
 
 
 /* @docs
@@ -106,7 +106,7 @@ note: |
 
 category: typography
 */
-hr {
+:where(hr) {
   border-style: solid;
   border-width: 1px 0 0;
   color: inherit;
@@ -126,12 +126,12 @@ note: |
 
 category: embedded elements
 */
-img, svg, video, canvas, audio, iframe, embed, object {
+:where(img, svg, video, canvas, audio, iframe, embed, object) {
   display: block;
   vertical-align: middle;
   max-width: 100%;
 }
-audio:not([controls]) { display:none; }
+:where(audio:not([controls])) { display:none; }
 
 
 /* @docs
@@ -147,8 +147,8 @@ note: |
 
 category: embedded elements
 */
-picture { display: contents; }
-source { display: none; }
+:where(picture) { display: contents; }
+:where(source) { display: none; }
 
 
 /* @docs
@@ -162,7 +162,7 @@ note: |
 
 category: embedded elements
 */
-img, svg, video, canvas {
+:where(img, svg, video, canvas) {
   height: auto;
 }
 
@@ -176,7 +176,7 @@ note: |
 
 category: embedded elements
 */
-audio { width: 100%; }
+:where(audio) { width: 100%; }
 
 /* @docs
 label: Image Borders
@@ -186,7 +186,7 @@ note: |
 
 category: legacy browsers
 */
-img { border-style: none; }
+:where(img) { border-style: none; }
 
 
 /* @docs
@@ -197,7 +197,7 @@ note: |
 
 category: legacy browsers
 */
-svg { overflow: hidden; }
+:where(svg) { overflow: hidden; }
 
 
 /* @docs
@@ -212,7 +212,7 @@ links:
 
 category: legacy browsers
 */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section {
+:where(article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section) {
   display: block;
 }
 
@@ -226,8 +226,8 @@ note: |
 
 category: legacy browsers
 */
-[type='checkbox'],
-[type='radio'] {
+:where([type='checkbox'],
+[type='radio']) {
   box-sizing: border-box;
   padding: 0;
 }
