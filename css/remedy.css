@@ -22,21 +22,6 @@ category: global
 
 
 /* @docs
-label: Line Sizing
-
-note: |
-  Consistent line-spacing,
-  even when inline elements have different line-heights.
-
-links:
-  - https://drafts.csswg.org/css-inline-3/#line-sizing-property
-
-category: global
-*/
-html { line-sizing: normal; }
-
-
-/* @docs
 label: Body Margins
 
 note: |
