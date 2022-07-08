@@ -235,7 +235,7 @@ category: file
 :root:lang(mzn),      :not(:lang(mzn)) > :lang(mzn)           { quotes: '\00ab' '\00bb' '\2039' '\203a' } /* « » ‹ › */
 
 
-:root:lang(fr),       :not(:lang(fr)) > :lang(fr)             { quotes: '\00ab' '\00bb' '\00ab' '\00bb' } /* « » « » */
+:root:lang(fr),       :not(:lang(fr)) > :lang(fr)             { quotes: '\00ab\00a0' '\00a0\00bb' '\00ab\00a0' '\00a0\00bb' } /* «   » «   » */
 :root:lang(hy),       :not(:lang(hy)) > :lang(hy)             { quotes: '\00ab' '\00bb' '\00ab' '\00bb' } /* « » « » */
 :root:lang(yav),      :not(:lang(yav)) > :lang(yav)           { quotes: '\00ab' '\00bb' '\00ab' '\00bb' } /* « » « » */
 
